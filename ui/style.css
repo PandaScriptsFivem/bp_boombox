@@ -1,0 +1,156 @@
+/* Alap stílusok */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif; /* Modern betűtípus */
+    color: #fff; /* Fehér szöveg */
+    background: #000; /* Fekete háttér */
+    overflow: hidden;
+}
+
+.boombox {
+    background: #1a1a1a; /* Sötét szürke háttér */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Mély árnyék */
+    width: 400px;
+    text-align: center;
+    border: 1px solid #333; /* Sötét szürke keret */
+}
+
+/* Kijelző */
+.display {
+    background: #262626; /* Sötét szürke háttér */
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3); /* Belülről árnyék */
+    border: 1px solid #333; /* Sötét szürke keret */
+}
+
+#current-time {
+    font-size: 32px;
+    font-weight: 700;
+    color: #00bfff; /* Világos kék szín */
+    margin-bottom: 10px;
+}
+
+#track-name {
+    font-size: 18px;
+    color: #ccc; /* Világos szürke szöveg */
+    display: block;
+}
+
+/* Gombok */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.control-btn {
+    background: #333; /* Sötét szürke háttér */
+    border: none;
+    color: #00bfff; /* Világos kék szín */
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Mély árnyék */
+}
+
+.control-btn:hover {
+    background: #444; /* Világosabb szürke hover esetén */
+    transform: scale(1.05);
+}
+
+.control-btn:active {
+    transform: scale(0.95);
+}
+
+/* Extra gombok */
+.extra-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.extra-btn {
+    background: #333; /* Sötét szürke háttér */
+    border: none;
+    color: #00bfff; /* Világos kék szín */
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Mély árnyék */
+}
+
+.extra-btn:hover {
+    background: #444; /* Világosabb szürke hover esetén */
+    transform: scale(1.05);
+}
+
+.extra-btn:active {
+    transform: scale(0.95);
+}
+
+/* Hangerőszabályzó */
+.volume-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.volume-btn {
+    background: #333; /* Sötét szürke háttér */
+    border: none;
+    color: #00bfff; /* Világos kék szín */
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Mély árnyék */
+}
+
+.volume-btn:hover {
+    background: #444; /* Világosabb szürke hover esetén */
+    transform: scale(1.05);
+}
+
+#volume-slider {
+    flex-grow: 1;
+    cursor: pointer;
+    accent-color: #00bfff; /* Világos kék szín */
+    background: #444; /* Világos szürke háttér */
+    border-radius: 10px;
+    height: 8px;
+    border: none;
+    transition: accent-color 0.3s ease;
+}
+
+#volume-slider:hover {
+    accent-color: #0099cc; /* Sötétebb kék hover esetén */
+}

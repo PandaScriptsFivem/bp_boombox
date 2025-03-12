@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boombox NUI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="boombox" id="boombox" style="display: none;">
+        <div class="display">
+            <span id="current-time">00:00</span>
+            <span id="track-name">Nincs zene</span>
+        </div>
+        <div class="controls">
+            <button id="prev" class="control-btn"><i class="material-icons">skip_previous</i></button>
+            <button id="play" class="control-btn"><i class="material-icons">play_arrow</i></button>
+            <button id="pause" class="control-btn"><i class="material-icons">pause</i></button>
+            <button id="stop" class="control-btn"><i class="material-icons">stop</i></button>
+            <button id="next" class="control-btn"><i class="material-icons">skip_next</i></button>
+        </div>
+        <div class="extra-buttons">
+            <button id="button1" class="extra-btn">1</button>
+            <button id="button2" class="extra-btn">2</button>
+            <button id="button3" class="extra-btn">3</button>
+            <button id="button4" class="extra-btn">4</button>
+            <button id="button5" class="extra-btn">5</button>
+        </div>
+        <div class="volume-controls">
+            <button id="vol-down" class="volume-btn"><i class="material-icons">volume_down</i></button>
+            <input type="range" id="volume-slider" min="0" max="1" value="0.1" step="0.01">
+            <button id="vol-up" class="volume-btn"><i class="material-icons">volume_up</i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
