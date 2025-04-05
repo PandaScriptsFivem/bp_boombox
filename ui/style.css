@@ -6,46 +6,45 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Inter', sans-serif; /* Modern betűtípus */
-    color: #fff; /* Fehér szöveg */
-    background: #000; /* Fekete háttér */
+    font-family: 'Inter', sans-serif;
+    color: #fff; 
+    background: #000; 
     overflow: hidden;
 }
 
 .boombox {
-    background: #1a1a1a; /* Sötét szürke háttér */
+    background: #1a1a1a; 
     padding: 30px;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Mély árnyék */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
     width: 400px;
     text-align: center;
-    border: 1px solid #333; /* Sötét szürke keret */
+    border: 1px solid #333; 
 }
 
-/* Kijelző */
+
 .display {
-    background: #262626; /* Sötét szürke háttér */
+    background: #262626;
     padding: 20px;
     border-radius: 15px;
     margin-bottom: 25px;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3); /* Belülről árnyék */
-    border: 1px solid #333; /* Sötét szürke keret */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3); 
+    border: 1px solid #333;
 }
 
 #current-time {
     font-size: 32px;
     font-weight: 700;
-    color: #00bfff; /* Világos kék szín */
+    color: #00bfff;
     margin-bottom: 10px;
 }
 
 #track-name {
     font-size: 18px;
-    color: #ccc; /* Világos szürke szöveg */
+    color: #ccc; 
     display: block;
 }
 
-/* Gombok */
 .controls {
     display: flex;
     justify-content: space-between;
@@ -53,9 +52,9 @@ body {
 }
 
 .control-btn {
-    background: #333; /* Sötét szürke háttér */
+    background: #333;
     border: none;
-    color: #00bfff; /* Világos kék szín */
+    color: #00bfff; 
     padding: 15px;
     font-size: 24px;
     border-radius: 50%;
@@ -66,11 +65,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Mély árnyék */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
 }
 
 .control-btn:hover {
-    background: #444; /* Világosabb szürke hover esetén */
+    background: #444; 
     transform: scale(1.05);
 }
 
@@ -78,7 +77,6 @@ body {
     transform: scale(0.95);
 }
 
-/* Extra gombok */
 .extra-buttons {
     display: flex;
     justify-content: space-between;
@@ -86,9 +84,9 @@ body {
 }
 
 .extra-btn {
-    background: #333; /* Sötét szürke háttér */
+    background: #333; 
     border: none;
-    color: #00bfff; /* Világos kék szín */
+    color: #00bfff; 
     padding: 15px;
     font-size: 24px;
     border-radius: 15px;
@@ -99,11 +97,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Mély árnyék */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
 }
 
 .extra-btn:hover {
-    background: #444; /* Világosabb szürke hover esetén */
+    background: #444;
     transform: scale(1.05);
 }
 
@@ -111,7 +109,6 @@ body {
     transform: scale(0.95);
 }
 
-/* Hangerőszabályzó */
 .volume-controls {
     display: flex;
     align-items: center;
@@ -119,9 +116,9 @@ body {
 }
 
 .volume-btn {
-    background: #333; /* Sötét szürke háttér */
+    background: #333; 
     border: none;
-    color: #00bfff; /* Világos kék szín */
+    color: #00bfff; 
     padding: 10px;
     font-size: 24px;
     border-radius: 50%;
@@ -132,19 +129,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Mély árnyék */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
 }
 
 .volume-btn:hover {
-    background: #444; /* Világosabb szürke hover esetén */
+    background: #444;
     transform: scale(1.05);
 }
 
 #volume-slider {
     flex-grow: 1;
     cursor: pointer;
-    accent-color: #00bfff; /* Világos kék szín */
-    background: #444; /* Világos szürke háttér */
+    accent-color: #00bfff;
+    background: #444;
     border-radius: 10px;
     height: 8px;
     border: none;
@@ -152,5 +149,5 @@ body {
 }
 
 #volume-slider:hover {
-    accent-color: #0099cc; /* Sötétebb kék hover esetén */
+    accent-color: #0099cc;
 }
